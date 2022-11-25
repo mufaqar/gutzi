@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -5,8 +6,8 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
-      <img
-        src="images/temp/arrow-right.png"
+      <Image
+        src="/images/temp/arrow-right.png"
         alt=""
         width="14"
         height="18"
@@ -20,8 +21,8 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
-      <img
-        src="images/temp/arrow-left.png"
+      <Image
+        src="/images/temp/arrow-left.png"
         alt=""
         width="14"
         height="18"
@@ -61,8 +62,8 @@ export default class CustomersTestimonial extends Component {
           <div>
             <div className="testimonial">
               <figure className="testimonial__ico">
-                <img
-                  src="images/temp/quotes.png"
+                <Image
+                  src="/images/temp/quotes.png"
                   alt=""
                   width="42"
                   height="31"
@@ -79,8 +80,8 @@ export default class CustomersTestimonial extends Component {
 
               <div className="testimonial__author">
                 <figure className="testimonial__author-image">
-                  <img
-                    src="images/temp/testimonial-author-image.png"
+                  <Image
+                    src="/images/temp/testimonial-author-image.png"
                     alt=""
                     width="62"
                     height="62"
@@ -97,8 +98,8 @@ export default class CustomersTestimonial extends Component {
           <div>
             <div className="testimonial">
               <figure className="testimonial__ico">
-                <img
-                  src="images/temp/quotes.png"
+                <Image
+                  src="/images/temp/quotes.png"
                   alt=""
                   width="42"
                   height="31"
@@ -115,8 +116,8 @@ export default class CustomersTestimonial extends Component {
 
               <div className="testimonial__author">
                 <figure className="testimonial__author-image">
-                  <img
-                    src="images/temp/testimonial-author-image.png"
+                  <Image
+                    src="/images/temp/testimonial-author-image.png"
                     alt=""
                     width="62"
                     height="62"

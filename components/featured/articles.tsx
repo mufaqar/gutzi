@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
@@ -57,8 +58,8 @@ export default class Articles extends Component {
             className="slider__arrow slider__arrow--prev"
             onClick={this.previous}
           >
-            <img
-              src="images/temp/arrow-left.png"
+            <Image
+              src="/images/temp/arrow-left.png"
               alt=""
               width="14"
               height="18"
@@ -70,8 +71,8 @@ export default class Articles extends Component {
             className="slider__arrow slider__arrow--next"
             onClick={this.next}
           >
-            <img
-              src="images/temp/arrow-right.png"
+            <Image
+              src="/images/temp/arrow-right.png"
               alt=""
               width="14"
               height="18"
@@ -85,8 +86,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-1.png"
+                <Image
+                  src="/images/temp/article-image-1.png"
                   alt=""
                   width="306"
                   height="284"
@@ -112,8 +113,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-2.png"
+                <Image
+                  src="/images/temp/article-image-2.png"
                   alt=""
                   width="306"
                   height="284"
@@ -138,8 +139,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-3.png"
+                <Image
+                  src="/images/temp/article-image-3.png"
                   alt=""
                   width="306"
                   height="284"
@@ -164,8 +165,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-4.png"
+                <Image
+                  src="/images/temp/article-image-4.png"
                   alt=""
                   width="306"
                   height="284"
@@ -190,8 +191,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-1.png"
+                <Image
+                  src="/images/temp/article-image-1.png"
                   alt=""
                   width="306"
                   height="284"
@@ -216,8 +217,8 @@ export default class Articles extends Component {
               <a href="#"></a>
 
               <figure className="article__image">
-                <img
-                  src="images/temp/article-image-1.png"
+                <Image
+                  src="/images/temp/article-image-1.png"
                   alt=""
                   width="306"
                   height="284"
@@ -237,7 +238,7 @@ export default class Articles extends Component {
               </div>
             </article>
           </div>
-          
+
         </Slider>
       </div>
     );
