@@ -1,0 +1,39 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Cards
+\* ------------------------------------------------------------ */
+
+.cards {
+	ul {
+		display: flex;
+		margin: -2.2rem -2.5rem;
+		flex-flow: row wrap;
+
+		@include breakpoint-down(tablet) {
+			margin: -1rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: -1.4rem -1rem;
+			display: block; 
+		}
+	}
+
+	li {
+		padding: 2.2rem 2.5rem;
+		flex: 0 0 calc(100% / 2 );
+		list-style-type: none; 
+
+		@include breakpoint-down(tablet) {
+			padding: 1rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 1.4rem 1rem;
+		}
+	}
+
+	li.desktop-order-4 {
+		order: 4;
+	}
+}

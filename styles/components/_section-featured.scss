@@ -1,0 +1,23 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Section Featured
+\* ------------------------------------------------------------ */
+
+.section-featured {
+	padding: 8.4rem 0 11.2rem;
+	background: $c-light;
+	overflow: hidden; 
+
+	@include breakpoint-down(mobile) {
+		padding: 3.9rem 0 4.9rem;
+	}
+
+	.section__head {
+		margin-bottom: 0.6rem;
+		text-align: center;
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 2.6rem;
+		}
+	}
+}

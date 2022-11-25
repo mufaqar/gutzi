@@ -1,0 +1,17 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Section Small
+\* ------------------------------------------------------------ */
+
+.section-small {
+	padding: 10rem 0 10.3rem;
+	background: $c-light;
+
+	@include breakpoint-down(tablet) {
+		padding: 7rem 0;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 4.1rem 0 3.9rem;
+	}
+}

@@ -1,0 +1,27 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {
+	padding: 9.2rem 0 8.9rem;
+
+	@include breakpoint-down(mobile) {
+		padding: 4.5rem 0;
+	}
+}
+
+.section.offset-top {
+	position: relative; 
+	margin-top: -25.5rem; 
+	padding-bottom: 1.8rem; 
+
+	@include breakpoint-down(tablet) {
+		margin-top: 0;
+		padding-bottom: inital;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 4.5rem 0 0.5rem; 
+	}
+}

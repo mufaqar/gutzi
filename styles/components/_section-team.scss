@@ -1,0 +1,36 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Section Team
+\* ------------------------------------------------------------ */
+
+.section-team {
+	padding: 9rem 0 15.2rem;
+	background: $background-gradient;
+
+	@include breakpoint-down(small-desktop) {
+		padding-bottom: 12rem;
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 2.8rem 0 4.4rem;
+	}
+
+	h3 {
+		margin-bottom: 9.6rem;
+		color: $c-white;
+		text-align: center;
+
+		@include breakpoint-down(small-desktop) {
+			margin-bottom: 5rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 4rem;
+		}
+	}
+
+	.section__inner {
+		margin: 0 auto;
+		max-width: 125rem;
+	}
+}

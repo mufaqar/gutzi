@@ -1,0 +1,95 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	List Data
+\* ------------------------------------------------------------ */
+
+.list-data {
+	padding: 0 5rem 0 4.5rem;
+	display: flex;
+	flex-flow: row wrap;
+	border-radius: 2.8rem;
+	background: $c-white;
+	box-shadow: 0 1.3rem 7rem rgba(0, 0, 0, .1);
+	font-size: 1.8rem; 
+	font-weight: 400; 
+
+	@include breakpoint-down(small-desktop) {
+		justify-content: space-between; 
+	}
+
+	@include breakpoint-down(tablet) {
+		background: none;
+		box-shadow: none;
+		border-radius: 0;
+		gap: 1.5rem;
+	}
+
+	@include breakpoint-down(mobile) {
+		display: grid;
+		grid-template-columns: 1fr  1fr;
+		grid-template-rows: 1fr 1fr;
+		padding: 0 2rem;
+		gap: 1.5rem;
+		font-size: 1.2rem; 
+		line-height: 1.2;
+	}
+
+	@include breakpoint-down(mobile-small) {
+		padding: 0;
+	}
+
+	li {
+		padding: 7rem 0 8.1rem;
+		flex: 1;
+		list-style-type: none; 
+		text-align: center;
+
+		@include breakpoint-down(small-desktop) {
+			flex: 0 0 auto;
+		}
+
+		@include breakpoint-down(tablet) {
+			padding: 6rem 2rem;
+			align-items: center;
+			flex: 0 1 calc(100% / 2 - .75rem);
+			box-shadow: 0 1.3rem 7rem rgba(0, 0, 0, .1);
+			background: $c-white;
+			border-radius: 1rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 1.6rem .5rem 0.5rem;
+		}
+	}
+
+	strong {
+		margin-bottom: 1.2rem;
+		display: inline-block; 
+		font-size: 8rem; 
+		font-weight: 700; 
+		background: $c-dark-blue;
+		background: linear-gradient(to right, rgb(29, 253, 254) 0%, rgb(33, 68, 210) 48%, rgb(33, 68, 210) 48.1%, rgba(35, 32, 202, 1) 53%, rgb(104, 83, 242) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		line-height: 1;
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: .4rem;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			font-size: 6.5rem; 
+		}
+	}
+
+	strong span {
+		background: linear-gradient(to right, rgb(29, 253, 254) 0%, rgb(33, 68, 210) 48%, rgb(33, 68, 210) 48.1%, rgb(35, 32, 202) 59%, rgb(104, 83, 242) 100%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
+		@include breakpoint-down(mobile) {
+			margin-left: .5rem; 
+			font-size: 4.5rem; 
+		}
+	}
+}

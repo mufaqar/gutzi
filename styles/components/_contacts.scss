@@ -1,0 +1,51 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Contacts
+\* ------------------------------------------------------------ */
+
+.contacts {
+	font-size: 1.9rem; 
+	line-height: 1.3;
+
+	@include breakpoint-down(mobile) {
+		margin: 0 auto;
+		max-width: 22.4rem; 
+		font-size: 1.2rem;
+	}
+
+	li {
+		list-style-type: none; 
+		display: flex;
+		align-items: center;
+	}
+
+	li + li {
+		margin-top: 3rem; 
+
+		@include breakpoint-down(mobile) {
+			margin-top: 1.6rem;
+		}
+	}
+
+	figure {
+		margin-right: 2rem; 
+		flex: 0 0 auto;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 4rem; 
+		height: 4rem; 
+		background: $c-sky-blue;
+		border-radius: 50%;
+
+		@include breakpoint-down(mobile) {
+			margin-right: 1.1rem;
+			width: 2.3rem;
+			height: 2.3rem;
+		}
+	}
+
+	a {
+		text-decoration: none; 
+	}
+}

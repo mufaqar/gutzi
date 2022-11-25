@@ -1,0 +1,88 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Header
+\* ------------------------------------------------------------ */
+
+.header {
+	padding: 7.9rem 0 3rem;
+	width: 100%; 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	z-index: 100;
+	color: $c-white;
+	background: transparent;
+
+	@include breakpoint-down(mobile) {
+		padding: 2rem 0;
+	}
+
+	.header__inner,
+	.header__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+
+	.header__inner {
+		padding-right: .3rem;
+		align-items: flex-end;
+
+		@include breakpoint-down(small-desktop) {
+			padding-right: 0;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: 0 1.2rem 0 1.4rem;
+			align-items: center;
+		}
+	}
+
+	.header__content {
+		padding-right: 13.9rem;
+		flex: 1;
+
+		@include breakpoint-down(tablet) {
+			padding-right: 5rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding-right: 1rem;
+		}
+	}
+
+	.header__nav {
+		padding-bottom: .6rem;
+
+		@include breakpoint-down(mobile) {
+			padding: 3rem 0 13rem;
+			position: absolute; 
+			top: 100%; 
+			left: 0; 
+			width: 100%; 
+			background: $background-gradient;
+			height: calc(100vh - 100%);
+			overflow: auto;
+			transform: translateY(-130%);
+			transition: transform $t-duration;
+		}
+	}
+
+	.header__nav.is-visible {
+		transform: none;
+	}
+
+	.header__aside {
+		padding-bottom: 0.9rem;
+		flex: 0 0 auto;
+
+		@include breakpoint-down(mobile) {
+			padding: 0 2rem;
+		}
+	}
+
+	.header__logo {
+		position: relative; 
+		z-index: 10;
+	}
+}

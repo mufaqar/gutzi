@@ -1,0 +1,39 @@
+//Variables
+$font-size-base  : 1.6rem;
+$font-weight-base: 400;
+$line-height-base: 1.53;
+
+$ff-sans-serif: 'Avenir Next LT Pro', Helvetica, Arial, sans-serif;
+$ff-montserrat: 'Montserrat', sans-serif;
+$ff-serif     : Georgia, "Times New Roman", Times, serif;
+
+$t-duration: 0.4s;
+
+$shell-max-width: 160rem;
+$shell-gutter   : 2rem;
+
+$c-black     : #000;
+$c-white     : #fff;
+$c-base      : #055590;
+$c-light-blue: #3296d3;
+$c-dark-blue : #020237;
+$c-blue      : #221fc9;
+$c-sky-blue  : #09bae4;
+$c-lilac     : #6954f3;
+$c-mint      : #c2f2ec;
+$c-light     : #f6f5fe;
+
+$responsive-ios             : 812px;
+
+$breakpoints: (
+	mobile-small: 374px,
+	mobile-medium: 575px,
+	mobile: 767px,
+	admin-bar: 782px,
+	tablet: 1023px,
+	small-desktop: 1199px,
+	large-desktop: 1399px
+);
+
+
+$background-gradient 		: linear-gradient(to right, rgb(29, 251, 254) 0%, rgb(30, 172, 234) 20%, rgb(33, 93, 215) 40%, rgb(39, 36, 205) 60%, rgb(103, 83, 242) 100%);

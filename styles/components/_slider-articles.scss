@@ -1,0 +1,91 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Slider Articles 
+\* ------------------------------------------------------------ */
+
+.slider-articles {
+	// .slider__clip {
+	// 	padding: 0 3.5rem;
+
+	// 	@include breakpoint-down(tablet) {
+	// 		padding: 0 10rem;
+	// 	}
+
+	// 	@include breakpoint-down(mobile) {
+	// 		padding: 0 5rem;
+	// 	}
+
+	// 	@include breakpoint-down(mobile-small) {
+	// 		padding: 0 2rem;
+	// 	}
+	// }
+
+	.article {
+		margin: 0 3.8rem;
+
+		@include breakpoint-down(large-desktop) {
+			margin: 0 2.5rem;
+		}
+
+		@include breakpoint-down(small-desktop) {
+			margin: 0 1.5rem;
+		}
+
+		@include breakpoint-down(mobile-small) {
+			margin: 0 1rem;
+		}
+	}
+
+	.slider__actions {
+		margin-bottom: 4.7rem;
+		padding-right: 7.6rem;
+		text-align: right;
+
+		@include breakpoint-down(mobile) {
+			display: none; 
+		}
+	}
+
+	.slider__actions button + button {
+		margin-left: 1rem;
+	}
+
+	.slider__arrow {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		border: .2rem solid $c-dark-blue;
+		border-radius: 50%;
+		background: none;
+		width: 4rem; 
+		height: 4rem; 
+		text-align: center;
+		overflow: hidden; 
+	}
+
+	.slider__arrow:hover img {
+		@media(hover: hover) {
+			transform: scale(1.2);
+		}
+	}
+
+	.slider__arrow img {
+		display: inline-block; 
+		object-fit: contain;
+		transition: transform $t-duration;
+	}
+
+	.slider__arrow--prev img {
+		margin-right: .3rem;
+	}
+
+	.slider__arrow--next img {
+		margin-left: .4rem; 
+	}
+
+	/*  SLider Articles SLick Overwrites  */
+
+	.slick-list {
+		overflow: visible;
+	}
+}

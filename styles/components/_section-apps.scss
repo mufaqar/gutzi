@@ -1,0 +1,33 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Section Apps
+\* ------------------------------------------------------------ */
+
+.section-apps {
+	padding: 8.8rem 0 13.2rem;
+
+	@include breakpoint-down(mobile) {
+		padding: 3.4rem 0 4.5rem; 
+	}
+
+	.section__head {
+		margin-bottom: 8.8rem;
+		text-align: center;
+
+		@include breakpoint-down(mobile) {
+			margin-bottom: 3.1rem;
+		}
+	}
+
+	.section__body {
+		padding: 0 0.7rem;
+
+		@include breakpoint-down(mobile) {
+			padding: 0 4rem;
+		}
+
+		@include breakpoint-down(mobile-small) {
+			padding: 0;
+		}
+	}
+}

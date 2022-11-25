@@ -1,0 +1,46 @@
+@use '../generic' as *;
+/* ------------------------------------------------------------ *\
+	Team
+\* ------------------------------------------------------------ */
+
+.team {
+	ul {
+		margin: -2rem -4.4rem;
+		display: flex;
+		flex-flow: row wrap;
+
+		@include breakpoint-down(large-desktop) {
+			margin: -2rem 0;
+		}
+
+		@include breakpoint-down(small-desktop) {
+			margin: -2rem -1rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			margin: -1.4rem;
+		}
+
+		@include breakpoint-down(mobile-small) {
+			display: block; 
+		}
+	}
+
+	li {
+		padding: 2rem 4.4rem;
+		flex: 0 1 calc(100% / 3);
+		list-style-type: none;
+
+		@include breakpoint-down(large-desktop) {
+			padding: 2rem;
+		}
+
+		@include breakpoint-down(small-desktop) {
+			padding: 2rem 1rem;
+		}
+
+		@include breakpoint-down(mobile) {
+			padding: .4rem;
+		}
+	}
+}
