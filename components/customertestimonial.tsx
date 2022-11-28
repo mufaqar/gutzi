@@ -1,5 +1,5 @@
 import React from 'react'
-import Customerstestimonial from "./customerstestimonials";
+import Customerstestimonial from "./customerstestimonail/customerstestimonials";
 
 export default function CustomersTestimonial() {
     return (
