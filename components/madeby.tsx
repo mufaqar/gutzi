@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function AppMade() {
+export default function MadeBy() {
     return (
         <><section className="section-apps">
             <div className="shell">

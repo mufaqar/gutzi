@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function Team() {
+export default function OurTeam() {
     return (
         <><section className="section-team" id="team">
             <div className="shell">

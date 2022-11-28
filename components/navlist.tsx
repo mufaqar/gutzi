@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-//import logo from 'images/temp/logo.svg';
+
 
 export default function Header() {
   return (
@@ -53,10 +53,8 @@ export default function Header() {
                         width="30"
                         height="19"
                       />
-
                       <span>en</span>
                     </Link>
-
                     <ul>
                       <li>
                         <a href="#">
@@ -66,7 +64,6 @@ export default function Header() {
                             width="30"
                             height="19"
                           />
-
                           <span>de</span>
                         </a>
                       </li>
@@ -79,7 +76,6 @@ export default function Header() {
                             width="30"
                             height="19"
                           />
-
                           <span>fr</span>
                         </a>
                       </li>

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function Clients() {
+export default function Apps() {
     return (
         <><section className="section-small">
             <div className="shell">

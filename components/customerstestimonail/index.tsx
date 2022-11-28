@@ -1,7 +1,7 @@
 import React from 'react'
 import Customerstestimonial from "./customerstestimonials";
 
-export default function Testimonials() {
+export default function CustomersTestimonial() {
     return (
         <><section className="section customerstestimonial">
             <div className="shell">

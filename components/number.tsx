@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Stats() {
+export default function Number() {
     return (
         <><section className="section offset-top">
             <div className="shell">

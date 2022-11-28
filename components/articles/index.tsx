@@ -1,7 +1,7 @@
 import React from 'react'
-import Articles from "../featured/articles";
+import blogs from "./blogs";
 
-export default function Featured() {
+export default function Articles() {
     return (
         <><section className="section-featured" id="featured">
             <div className="shell">
@@ -10,7 +10,7 @@ export default function Featured() {
                 </header>
 
                 <div className="section__body">
-                    <Articles></Articles>
+                    <blogs />
                 </div>
             </div>
         </section></>
