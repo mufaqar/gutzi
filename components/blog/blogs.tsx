@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class blogs extends Component {
+export default class Blogs extends Component {
   slider: any;
   constructor(props: {} | Readonly<{}>) {
     super(props);

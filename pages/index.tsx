@@ -1,16 +1,16 @@
 
-import Hero from "../components/hero";
+import Header from "../components/header";
 import Number from "../components/number";
 import CustomersTestimonial from "../components/customerstestimonail";
 import Apps from "../components/apps";
 import MadeBy from "../components/madeby";
 import OurTeam from "../components/ourteam";
 import About from "../components/about";
-import Featured from "../components/articles";
+import Articles from "../components/articles";
 export default function Home() {
 	return (
 		<>
-			<Hero />
+			<Header />
 			<div className="main">
 				<Number />
 				<CustomersTestimonial />
@@ -18,7 +18,7 @@ export default function Home() {
 				<MadeBy />
 				<OurTeam />
 				<About />
-				<Featured />
+				<Articles />
 			</div>
 		</>
 	)

@@ -1,5 +1,5 @@
 import React from 'react'
-import blogs from "./blogs";
+import Blogs from "./blog/blogs";
 
 export default function Articles() {
     return (
@@ -10,7 +10,7 @@ export default function Articles() {
                 </header>
 
                 <div className="section__body">
-                    <blogs />
+                    <Blogs />
                 </div>
             </div>
         </section></>
