@@ -1,10 +1,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { useRouter } from 'next/router';
 
 
 
 export default function Header() {
+  const router = useRouter();
+
+
+
   return (
     <>
       <header className="header">
@@ -57,7 +62,7 @@ export default function Header() {
                     </Link>
                     <ul>
                       <li>
-                        <a href="#">
+                        <Link href={router.asPath} locale={router.locale === 'en-US' && 'de'}>
                           <Image
                             src="/images/temp/lang-de.png"
                             alt=""
@@ -65,19 +70,19 @@ export default function Header() {
                             height="19"
                           />
                           <span>de</span>
-                        </a>
+                        </Link>
                       </li>
 
                       <li>
-                        <a href="#">
+                        <Link href={router.asPath} locale={router.locale === 'de' && 'en-US'}>
                           <Image
-                            src="/images/temp/lang-fr.png"
+                            src="/images/temp/lang-en.png"
                             alt=""
                             width="30"
                             height="19"
                           />
-                          <span>fr</span>
-                        </a>
+                          <span>En</span>
+                        </Link>
                       </li>
                     </ul>
                   </li>
@@ -87,9 +92,7 @@ export default function Header() {
 
             <a href="#" className="nav-trigger js-nav-trigger">
               <span></span>
-
               <span></span>
-
               <span></span>
             </a>
           </div>

@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
+//import { en, de } from '../../public/translation';
+
 
 export default function About() {
     return (
