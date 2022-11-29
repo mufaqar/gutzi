@@ -25,4 +25,7 @@ module.exports = {
     locales: ['en-US', 'de'],
     defaultLocale: 'en-US',
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
