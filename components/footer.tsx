@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function Footer() {
+export default function Footer({ contact }) {
     return (
         <>
             <footer className="footer">
@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="shell">
                         <div className="footer__content-inner">
                             <div className="footer__aside">
-                                <h3>Kontaktangaben</h3>
+                                <h3>{contact.title}</h3>
 
                                 <div className="contacts">
                                     <ul>

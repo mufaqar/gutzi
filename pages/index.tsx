@@ -17,7 +17,7 @@ export default function Home() {
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
-	const { heredata, navlist, about, number } = t;
+	const { heredata, navlist, about, number, appmade, team, contact } = t;
 
 
 
@@ -31,12 +31,12 @@ export default function Home() {
 				<Number number={number[0]} />
 				<CustomersTestimonial />
 				<Apps />
-				<MadeBy />
-				<OurTeam />
+				<MadeBy appmade={appmade[0]} />
+				<OurTeam team={team[0]} />
 				<About about={about[0]} />
 				<Articles />
 			</div>
-			<Footer />
+			<Footer contact={contact[0]} />
 		</>
 	)
 }

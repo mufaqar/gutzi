@@ -35,6 +35,22 @@ export const en = {
       readmore: 'Read More',
     },
   ],
+
+  appmade: [
+    {
+      title: 'Apps Made by AvanzaTec',
+    },
+  ],
+  team: [
+    {
+      title: 'Our Team',
+    },
+  ],
+  contact: [
+    {
+      title: 'Contact Details',
+    },
+  ],
 };
 
 export const de = {
@@ -72,6 +88,21 @@ export const de = {
       about_detail:
         '<p>Hochskalierbare Webservices und Apps – nahtlose Flexibilität</p>      <p>Der Status Quo ist vergänglicher denn je. Ihre Anwendung wächst mit Ihrem Unternehmen und ist damit stets den Anforderungen gewachsen, die auf Sie zukommen. Geniessen Sie den Komfort einer nahtlosen Flexibilität und einer reibungslosen Erweiterung, die Ihre App an Ihre Bedürfnisse anpasst.</p>      <p>Schnelle, sichere und potente Realisierung Ihres Projekts dank Microservice-Architektur</p>      <p>AvanzaTec bedient sich dem Microservice-Architekturkonzept, bei dem einzelne Komponenten Ihrer App oder Webanwendung unabhängig voneinander funktionieren. Diese Methode senkt die Fehleranfälligkeit Ihres Produkts dank des Wegfalls unbewusster Verkettungen einzelner Bereiche. Aufgrund der smarten Aufteilung können mehrere Entwickler gleichzeitig am Projekt arbeiten, was die Zeit bis zur Fertigstellung signifikant reduziert und auch die Kosten senkt.  Wünschen Sie in Zukunft eine Anpassung oder Erweiterung einzelner Funktionen, können wir Ihrem Wunsch schnell und kostengünstig nachkommen, da nicht die gesamte Anwendung neu überarbeitet werden muss. Auch etwaige technische Fehler lassen sich gezielt und zeitnah beheben, weil das Problem genau verortet und lokal ausgebessert werden kann. Mit der Microservice-Architektur stellen wir die hohe Skalierbarkeit Ihres Produkts sicher, die im schnelllebigen unternehmerischen Alltag unerlässlich ist.  </p>',
       readmore: 'Weiterlesen',
+    },
+  ],
+  appmade: [
+    {
+      title: 'Apps hergestellt von AvanzaTec',
+    },
+  ],
+  team: [
+    {
+      title: 'Unser Team',
+    },
+  ],
+  contact: [
+    {
+      title: 'Kontaktangaben',
     },
   ],
 };

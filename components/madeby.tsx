@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function MadeBy() {
+export default function MadeBy({ appmade }) {
     return (
         <><section className="section-apps">
             <div className="shell">
                 <header className="section__head">
-                    <h3>Apps Made by AvanzaTec</h3>
+                    <h3>{appmade.title}</h3>
                 </header>
 
                 <div className="section__body">
