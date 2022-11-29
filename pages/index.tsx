@@ -16,7 +16,7 @@ export default function Home() {
 
 
 	interface MyCodeParams {
-		about: (param: any) => void,
+		about: (param: any) => void
 	}
 
 	const router = useRouter()
