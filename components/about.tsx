@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-//import { en, de } from '../../public/translation';
 
 
-export default function About({ about }) {
+export default function About({ npm }) {
     return (
         <><section className="section-about" id="about">
             <div className="shell">
