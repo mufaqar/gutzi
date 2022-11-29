@@ -5,11 +5,8 @@ import { useRouter } from 'next/router';
 
 
 
-export default function Header() {
+export default function Header({ navlist }) {
   const router = useRouter();
-
-
-
   return (
     <>
       <header className="header">
@@ -28,19 +25,19 @@ export default function Header() {
                 <nav className="nav">
                   <ul>
                     <li>
-                      <Link href="/">Home</Link>
+                      <Link href="/">{navlist.home}</Link>
                     </li>
 
                     <li>
-                      <a href="#team">Team</a>
+                      <a href="#team">{navlist.team}</a>
                     </li>
 
                     <li>
-                      <a href="#about">About</a>
+                      <a href="#about">{navlist.about}</a>
                     </li>
 
                     <li>
-                      <a href="#contact">Contact</a>
+                      <a href="#contact">{navlist.contact}</a>
                     </li>
                   </ul>
                 </nav>

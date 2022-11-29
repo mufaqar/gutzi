@@ -9,19 +9,23 @@ import About from "../components/about";
 import Articles from "../components/articles";
 import { de, en } from '../public/translation'
 import { useRouter } from 'next/router'
+import NavList from '../components/navlist';
+import Footer from '../components/footer';
+
 export default function Home() {
 
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
+	const { heredata, navlist, about } = t;
 
-	const { heredata } = t;
 
 
 
 
 	return (
 		<>
+			<NavList navlist={navlist[0]} />
 			<Header hereData={heredata[0]} />
 			<div className="main">
 				<Number />
@@ -29,9 +33,10 @@ export default function Home() {
 				<Apps />
 				<MadeBy />
 				<OurTeam />
-				<About />
+				<About about={about[0]} />
 				<Articles />
 			</div>
+			<Footer />
 		</>
 	)
 }
