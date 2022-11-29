@@ -14,6 +14,11 @@ import Footer from '../components/footer';
 
 export default function Home() {
 
+
+	interface MyCodeParams {
+		about: (param: any) => void
+	}
+
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
@@ -33,7 +38,7 @@ export default function Home() {
 				<Apps />
 				<MadeBy appmade={appmade[0]} />
 				<OurTeam team={team[0]} />
-				<About about={about[0]} />
+				<About About={about[0]} />
 				<Articles />
 			</div>
 			<Footer contact={contact[0]} />
