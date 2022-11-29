@@ -16,17 +16,13 @@ export default function Home() {
 
 
 	interface MyCodeParams {
-		about: (param: any) => void
+		about: (param: any) => void,
 	}
 
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
 	const { heredata, navlist, about, number, appmade, team, contact } = t;
-
-
-
-
 
 	return (
 		<>
