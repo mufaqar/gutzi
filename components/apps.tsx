@@ -8,7 +8,7 @@ export default function Apps() {
                 <div className="section__inner">
                     <ul className="list-logos">
                         <li>
-                            <a href='#'>
+                            <a href='#1'>
                                 <Image src="/images/temp/list-logos-1.svg" alt="" width="116" height="128" />
                             </a>
                         </li>
