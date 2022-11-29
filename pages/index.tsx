@@ -17,7 +17,7 @@ export default function Home() {
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
-	const { heredata, navlist, about } = t;
+	const { heredata, navlist, about, number } = t;
 
 
 
@@ -28,7 +28,7 @@ export default function Home() {
 			<NavList navlist={navlist[0]} />
 			<Header hereData={heredata[0]} />
 			<div className="main">
-				<Number />
+				<Number number={number[0]} />
 				<CustomersTestimonial />
 				<Apps />
 				<MadeBy />

@@ -10,20 +10,20 @@ export default function About({ about }) {
                 <div className="section__inner">
                     <div className="section__content">
                         <h3>{about.vision}</h3>
-                        <p
+                        <div
 
                             dangerouslySetInnerHTML={{
                                 __html: about.vision_detail,
                             }}
-                        ></p>
-                        <h3> {about.about}</h3>
+                        ></div>
+                        <h3 className='about_title'> {about.about}</h3>
 
-                        <p
+                        <div
                             className="section__entry"
                             dangerouslySetInnerHTML={{
                                 __html: about.about_detail,
                             }}
-                        ></p>
+                        ></div>
 
 
 

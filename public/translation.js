@@ -15,6 +15,15 @@ export const en = {
       contact: 'Contact',
     },
   ],
+  number: [
+    {
+      year: 'years of experience',
+      team: 'meetings conducted',
+      work: 'Worked without motivation',
+      partner: 'Partner',
+    },
+  ],
+
   about: [
     {
       vision: 'Our vision',
@@ -43,6 +52,14 @@ export const de = {
       team: 'Mannschaft',
       about: 'Um',
       contact: 'Kontakt',
+    },
+  ],
+  number: [
+    {
+      year: 'Jahre Erfahrung',
+      team: 'Sitzungen gefhürt',
+      work: 'Ohne Motivation gearbeitet',
+      partner: 'Partner',
     },
   ],
 

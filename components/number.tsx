@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Number() {
+export default function Number({ number }) {
     return (
         <><section className="section offset-top">
             <div className="shell">
@@ -9,25 +9,25 @@ export default function Number() {
                         <li>
                             <strong>50 <span>+</span></strong>
 
-                            <p>Jahre Erfahrung</p>
+                            <p>{number.year}</p>
                         </li>
 
                         <li>
                             <strong>40 <span>+</span></strong>
 
-                            <p>Sitzungen gefhürt</p>
+                            <p>{number.team}</p>
                         </li>
 
                         <li>
                             <strong>0</strong>
 
-                            <p>Ohne Motivation gearbeitet</p>
+                            <p>{number.work}</p>
                         </li>
 
                         <li>
                             <strong>3</strong>
 
-                            <p>Partner</p>
+                            <p>{number.partner}</p>
                         </li>
                     </ul>
                 </div>
