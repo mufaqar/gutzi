@@ -2,17 +2,17 @@ import React from 'react'
 import Image from 'next/image'
 
 
-type about = {
-    vision: string;
-    vision_detail: string;
-    about: string;
-    about_detail: string;
-    readmore: string;
-}
+// type about = {
+//     vision: string;
+//     vision_detail: string;
+//     about: string;
+//     about_detail: string;
+//     readmore: string;
+// }
 
 
 
-export default function About({ About: about[] }) {
+export default function About({ About }) {
     return (
         <><section className="section-about" id="about">
             <div className="shell">
