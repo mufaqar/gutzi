@@ -3,7 +3,7 @@ import Image from 'next/image'
 //import { en, de } from '../../public/translation';
 
 
-export default function About({ about: any }) {
+export default function About({ about }) {
     return (
         <><section className="section-about" id="about">
             <div className="shell">
