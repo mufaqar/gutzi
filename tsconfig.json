@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js", "pages/_app.js", "app/pagejs", "app/layout.js", "components/header/navlist.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/_app.js", "pages/_app.js", "app/pagejs", "app/layout.js", "components/header/navlist.js", "components/about.js", "components/apps.js", "components/articles.js", "components/customertestimonial.js", "components/footer.js", "components/header.js", "components/madeby.js", "components/navlist.js", "components/number.js", "components/ourteam.js", "components/blog/blogs.tsx", "components/customerstestimonail/customerstestimonials.tsx"],
   "exclude": ["node_modules"]
 }

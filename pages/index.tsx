@@ -34,7 +34,7 @@ export default function Home() {
 				<Apps />
 				<MadeBy appmade={appmade[0]} />
 				<OurTeam team={team[0]} />
-				<About About={about[0]} />
+				<About about={about[0]} />
 				<Articles />
 			</div>
 			<Footer contact={contact[0]} />

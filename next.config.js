@@ -20,13 +20,9 @@
 // next.config.js
 module.exports = {
   reactStrictMode: true,
-  noImplicitAny: true,
   swcMinify: true,
   i18n: {
     locales: ['en-US', 'de'],
     defaultLocale: 'en-US',
-  },
-  typescript: {
-    ignoreBuildErrors: true,
   },
 };
