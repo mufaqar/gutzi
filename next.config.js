@@ -9,12 +9,12 @@ const nextConfig = {
     defaultLocale: 'en-US',
   },
   images: {
-    loader: 'akamai',
-    path: '',
+    loader: 'imgix',
+    path: '/',
   },
 };
 
-// module.exports = nextConfig;
+module.exports = nextConfig;
 
 // // next.config.js
 // const withSvgr = require('next-plugin-svgr');
