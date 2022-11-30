@@ -3,10 +3,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  experimental: { appDir: false },
+
   i18n: {
     locales: ['en-US', 'fr'],
     defaultLocale: 'en-US',
+  },
+  images: {
+    loader: 'akamai',
+    path: '',
   },
 };
 
