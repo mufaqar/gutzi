@@ -20,6 +20,7 @@ const nextConfig = {
 module.exports = nextConfig;
 
 // // next.config.js
+// Older data
 // const withSvgr = require('next-plugin-svgr');
 
 // module.exports = withSvgr();
