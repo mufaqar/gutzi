@@ -3,10 +3,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // i18n: {
-  //   locales: ['en-US', 'de'],
-  //   defaultLocale: 'en-US',
-  // },
+  i18n: {
+    locales: ['en-US', 'de'],
+    defaultLocale: 'de',
+  },
 
   // images: {
   //   loader: 'imgix',

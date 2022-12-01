@@ -3,8 +3,6 @@ import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
 
-
-
 export default function Header({ navlist }) {
   const router = useRouter();
   return (
@@ -50,16 +48,19 @@ export default function Header({ navlist }) {
                   <li className="is-current">
                     <Link href="/">
                       <Image
-                        src="/images/temp/lang-en.png"
+                        src="/images/temp/lang-de.png"
                         alt=""
                         width="30"
                         height="19"
                       />
-                      <span>en</span>
+                      <span>De</span>
                     </Link>
                     <ul>
-                      <li>
-                        <Link href={router.asPath} locale={router.locale === 'en-US' && 'de'}>
+                      {/* <li>
+                        <Link
+                          href={router.asPath}
+                          locale={router.locale === 'en-US' && 'de'}
+                        >
                           <Image
                             src="/images/temp/lang-de.png"
                             alt=""
@@ -68,10 +69,13 @@ export default function Header({ navlist }) {
                           />
                           <span>de</span>
                         </Link>
-                      </li>
+                      </li> */}
 
                       <li>
-                        <Link href={router.asPath} locale={router.locale === 'de' && 'en-US'}>
+                        <Link
+                          href={router.asPath}
+                          locale={router.locale === 'de' && 'en-US'}
+                        >
                           <Image
                             src="/images/temp/lang-en.png"
                             alt=""
