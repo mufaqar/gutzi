@@ -3,15 +3,14 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-
   i18n: {
-    locales: ['en-US', 'fr'],
+    locales: ['en-US', 'de'],
     defaultLocale: 'en-US',
   },
-  images: {
-    loader: 'imgix',
-    path: '/',
-  },
+  // images: {
+  //   loader: 'imgix',
+  //   path: '/',
+  // },
 };
 
 module.exports = nextConfig;
