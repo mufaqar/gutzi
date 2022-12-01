@@ -12,6 +12,9 @@ const nextConfig = {
   //   loader: 'imgix',
   //   path: '/',
   // },
+  images: {
+    unoptimized: true,
+  },
 };
 
 module.exports = nextConfig;
