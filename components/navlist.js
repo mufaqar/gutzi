@@ -37,15 +37,15 @@ export default function Header({ navlist }) {
                     </li>
 
                     <li>
-                      <a href="#team">{navlist.team}</a>
+                      <Link href="/#team">{navlist.team}</Link>
                     </li>
 
                     <li>
-                      <a href="#about">{navlist.about}</a>
+                      <Link href="/#about">{navlist.about}</Link>
                     </li>
 
                     <li>
-                      <a href="#contact">{navlist.contact}</a>
+                      <Link href="/#contact">{navlist.contact}</Link>
                     </li>
                   </ul>
                 </nav>
@@ -69,7 +69,7 @@ export default function Header({ navlist }) {
                       {/* <li>
                         <Link
                           href={router.asPath}
-                          locale={router.locale === 'en-US' && 'de'}
+                          locale={router.locale === 'en' && 'de'}
                         >
                           <Image
                             src="/images/temp/lang-de.png"
@@ -84,7 +84,7 @@ export default function Header({ navlist }) {
                       <li>
                         <Link
                           href={router.asPath}
-                          locale={router.locale === 'de' && 'en-US'}
+                          locale={router.locale === 'de' && 'en'}
                         >
                           <Image
                             src="/images/temp/lang-en.png"
