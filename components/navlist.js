@@ -7,7 +7,11 @@ export default function Header({ navlist }) {
   const router = useRouter();
   return (
     <>
-      <header className="header">
+      <header
+        className={`${
+          router.pathname === '/' ? 'header' : 'header header-dark'
+        } `}
+      >
         <div className="shell">
           <div className="header__inner">
             <div className="header__content">
