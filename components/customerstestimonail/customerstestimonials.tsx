@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
+function SampleNextArrow(props: { testimonials: any; className: any; style: any; onClick: any; }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
@@ -47,6 +47,8 @@ export default class CustomersTestimonial extends Component {
   }
 
   render() {
+    const testimonials = this.props.testimonials;
+    console.log(testimonials);
     const settings = {
       dots: true,
       infinite: true,
@@ -59,78 +61,46 @@ export default class CustomersTestimonial extends Component {
     return (
       <div>
         <Slider ref={(c) => (this.slider = c)} {...settings}>
-          <div>
-            <div className="testimonial">
-              <figure className="testimonial__ico">
-                <Image
-                  src="/images/temp/quotes.png"
-                  alt=""
-                  width="42"
-                  height="31"
-                />
-              </figure>
+          {testimonials.map((testimonial: any, index: any) => {
+            return (
+              <div key={index}>
 
-              <h3>Lorem ipsum dolor</h3>
+                <div className="testimonial">
+                  <figure className="testimonial__ico">
+                    <Image
+                      src="/images/temp/quotes.png"
+                      alt=""
+                      width="42"
+                      height="31"
+                    />
+                  </figure>
 
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
-              </blockquote>
+                  <h3>{testimonial.title}</h3>
 
-              <div className="testimonial__author">
-                <figure className="testimonial__author-image">
-                  <Image
-                    src="/images/temp/testimonial-author-image.png"
-                    alt=""
-                    width="62"
-                    height="62"
-                  />
-                </figure>
+                  <blockquote>
+                    {testimonial.info}
+                  </blockquote>
 
-                <span className="testimonial__author-details">
-                  <strong>Jane Doe</strong>
-                  Company here
-                </span>
+                  <div className="testimonial__author">
+                    <figure className="testimonial__author-image">
+                      <Image
+                        src={testimonial.pic}
+                        alt=""
+                        width="62"
+                        height="62"
+                      />
+                    </figure>
+
+                    <span className="testimonial__author-details">
+                      <strong>{testimonial.name}</strong>
+                      {testimonial.company}
+                    </span>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div>
-            <div className="testimonial">
-              <figure className="testimonial__ico">
-                <Image
-                  src="/images/temp/quotes.png"
-                  alt=""
-                  width="42"
-                  height="31"
-                />
-              </figure>
+            );
+          })}
 
-              <h3>Lorem ipsum dolor</h3>
-
-              <blockquote>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                aliquam erat volutpat.
-              </blockquote>
-
-              <div className="testimonial__author">
-                <figure className="testimonial__author-image">
-                  <Image
-                    src="/images/temp/testimonial-author-image.png"
-                    alt=""
-                    width="62"
-                    height="62"
-                  />
-                </figure>
-
-                <span className="testimonial__author-details">
-                  <strong>Jane Doe</strong>
-                  Company here
-                </span>
-              </div>
-            </div>
-          </div>
         </Slider>
       </div>
     );

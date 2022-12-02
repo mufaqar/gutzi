@@ -24,6 +24,30 @@ export const en = {
     },
   ],
 
+  testimonials: [
+    {
+      title: 'Lorem ipsum dolor',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Jane Doe',
+      company: 'Vorsitzender',
+    },
+    {
+      title: 'Lorem ipsum dolor 02',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Matt Doe',
+      company: 'Vorsitzender',
+    },
+    {
+      title: 'Lorem ipsum dolor 03',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Lue Doe',
+      company: 'Vorsitzender',
+    },
+  ],
+
   about: [
     {
       vision: 'Our vision',
@@ -180,6 +204,30 @@ export const de = {
       position: 'Position',
       info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
       pic: '/images/temp/member-3.png',
+    },
+  ],
+
+  testimonials: [
+    {
+      title: 'Lorem ipsum dolor',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Jane Doe',
+      company: 'Vorsitzender',
+    },
+    {
+      title: 'Lorem ipsum dolor 02',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Matt Doe',
+      company: 'Vorsitzender',
+    },
+    {
+      title: 'Lorem ipsum dolor 03',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      pic: '/images/temp/member-1.png',
+      name: 'Lue Doe',
+      company: 'Vorsitzender',
     },
   ],
 

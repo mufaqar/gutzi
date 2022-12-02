@@ -2,7 +2,6 @@ import Image from 'next/image';
 import React from 'react';
 
 export default function OurTeam({ team, members }) {
-  console.log(members);
   return (
     <>
       <section className="section-team" id="team">

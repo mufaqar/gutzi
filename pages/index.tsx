@@ -22,7 +22,7 @@ export default function Home() {
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
-	const { heredata, navlist, about, number, appmade, team, contact, members, blog } = t;
+	const { heredata, navlist, about, number, appmade, team, contact, members, blog, testimonials } = t;
 
 	return (
 		<>
@@ -30,7 +30,7 @@ export default function Home() {
 			<Header hereData={heredata[0]} />
 			<div className="main">
 				<Number number={number[0]} />
-				<CustomersTestimonial />
+				<CustomersTestimonial testimonials={testimonials} />
 				<Apps />
 				<MadeBy appmade={appmade[0]} />
 				<OurTeam team={team} members={members} />

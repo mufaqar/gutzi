@@ -3,11 +3,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 export default class Blogs extends Component {
-
-
   slider: any;
   constructor(props: { blog: any }) {
-
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
