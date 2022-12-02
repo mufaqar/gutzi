@@ -14,7 +14,7 @@ export default function PrivacyPage() {
 
 	const router = useRouter()
 	const { locale } = router;
-	const t = locale === "en-US" ? en : de
+	const t = locale === "en" ? en : de
 	const { navlist, contact } = t;
 
 	return (

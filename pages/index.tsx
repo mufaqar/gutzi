@@ -21,7 +21,7 @@ export default function Home() {
 
 	const router = useRouter()
 	const { locale } = router;
-	const t = locale === "en-US" ? en : de
+	const t = locale === "en" ? en : de
 	const { heredata, navlist, about, number, appmade, team, contact, members, blog, testimonials } = t;
 
 	return (
