@@ -3,8 +3,11 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 
 export default class Blogs extends Component {
+
+
   slider: any;
-  constructor(props: {} | Readonly<{}>) {
+  constructor(props: { blog: any }) {
+
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
@@ -16,6 +19,8 @@ export default class Blogs extends Component {
     this.slider.slickPrev();
   }
   render() {
+    const blog = this.props.blog;
+    console.log(blog);
     const settings = {
       arrows: false,
       dots: false,
@@ -81,163 +86,38 @@ export default class Blogs extends Component {
         </div>
 
         <Slider ref={(c) => (this.slider = c)} {...settings}>
-          <div>
-            <article className="article">
-              <a href="#"></a>
 
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-1.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
+          {blog.map((blog: any, index: any) => {
+            return (
+              <div key={index}>
+                <article className="article">
+                  <a href="#"></a>
 
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
-          <div>
-            <article className="article">
-              <a href="#"></a>
+                  <figure className="article__image">
+                    <Image
+                      src={blog.pic}
+                      alt=""
+                      width="306"
+                      height="284"
+                    />
+                  </figure>
 
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-2.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
-          <div>
-            <article className="article">
-              <a href="#"></a>
+                  <div className="article__content">
+                    <div className="article__meta">
+                      <span>{blog.time}</span>
+                    </div>
+                    <h6>{blog.title}</h6>
+                    <p>
+                      {blog.info}
+                    </p>
+                    <a href={blog.readmore_url} className="link link--alt article__link">
+                      {blog.readmore_title}
+                    </a>
+                  </div>
+                </article>
+              </div>);
+          })}
 
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-3.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
-          <div>
-            <article className="article">
-              <a href="#"></a>
-
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-4.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
-          <div>
-            <article className="article">
-              <a href="#"></a>
-
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-1.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
-          <div>
-            <article className="article">
-              <a href="#"></a>
-
-              <figure className="article__image">
-                <Image
-                  src="/images/temp/article-image-1.png"
-                  alt=""
-                  width="306"
-                  height="284"
-                />
-              </figure>
-              <div className="article__content">
-                <div className="article__meta">
-                  <span>5 min read</span>
-                </div>
-                <h6>Lorem Ipsum</h6>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed
-                </p>
-                <a href="#" className="link link--alt article__link">
-                  Read more
-                </a>
-              </div>
-            </article>
-          </div>
 
         </Slider>
       </div>

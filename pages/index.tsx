@@ -22,7 +22,7 @@ export default function Home() {
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
-	const { heredata, navlist, about, number, appmade, team, contact } = t;
+	const { heredata, navlist, about, number, appmade, team, contact, members, blog } = t;
 
 	return (
 		<>
@@ -33,9 +33,9 @@ export default function Home() {
 				<CustomersTestimonial />
 				<Apps />
 				<MadeBy appmade={appmade[0]} />
-				<OurTeam team={team[0]} />
+				<OurTeam team={team} members={members} />
 				<About about={about[0]} />
-				<Articles />
+				<Articles blog={blog} />
 			</div>
 			<Footer contact={contact[0]} />
 		</>

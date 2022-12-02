@@ -46,6 +46,68 @@ export const en = {
       title: 'Our Team',
     },
   ],
+  members: [
+    {
+      title: 'Pius Gutzwiller',
+      position: 'Chairman',
+      info: 'CEO and Chairman of the Organization at AvanzaTec',
+      pic: '/images/temp/member-1.png',
+    },
+    {
+      title: 'Pius Gutzwiller 02',
+      position: 'Position',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      pic: '/images/temp/member-2.png',
+    },
+    {
+      title: 'Pius Gutzwiller 03',
+      position: 'Position',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      pic: '/images/temp/member-3.png',
+    },
+  ],
+  blog: [
+    {
+      title: 'Blog Article 1',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-1.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 2',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-2.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 3',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-3.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 4',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-1.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 5',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-2.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+  ],
   contact: [
     {
       title: 'Contact Details',
@@ -98,6 +160,69 @@ export const de = {
   team: [
     {
       title: 'Unser Team',
+    },
+  ],
+  members: [
+    {
+      title: 'Pius Gutzwiller',
+      position: 'Vorsitzender',
+      info: 'CEO und Vorsitzender der Organisation at AvanzaTec',
+      pic: '/images/temp/member-1.png',
+    },
+    {
+      title: 'Pius Gutzwiller 02',
+      position: 'Position',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      pic: '/images/temp/member-2.png',
+    },
+    {
+      title: 'Pius Gutzwiller 03',
+      position: 'Position',
+      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      pic: '/images/temp/member-3.png',
+    },
+  ],
+
+  blog: [
+    {
+      title: 'Blog Article 1',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-1.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 2',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-2.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 3',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-3.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 4',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-1.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
+    },
+    {
+      title: 'Blog Article 5',
+      time: 'Vorsitzender',
+      info: 'AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie',
+      pic: '/images/temp/article-image-2.png',
+      readmore_title: 'Read more',
+      readmore_url: '#',
     },
   ],
   contact: [

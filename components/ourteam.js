@@ -1,78 +1,50 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
-export default function OurTeam({ team }) {
-    return (
-        <><section className="section-team" id="team">
-            <div className="shell">
-                <div className="section__inner">
-                    <h3>{team.title}</h3>
+export default function OurTeam({ team, members }) {
+  console.log(members);
+  return (
+    <>
+      <section className="section-team" id="team">
+        <div className="shell">
+          <div className="section__inner">
+            <h3>{team.title}</h3>
 
-                    <div className="team">
-                        <ul>
-                            <li>
-                                <div className="team-member">
-                                    <figure className="team-member__image">
-                                        <Image src="/images/temp/member-1.png" alt="" width="358" height="348" />
-                                    </figure>
+            <div className="team">
+              <ul>
+                {members.map((member, index) => {
+                  return (
+                    <li key={index}>
+                      <div className="team-member">
+                        <figure className="team-member__image">
+                          <Image
+                            src={member.pic}
+                            alt=""
+                            width="358"
+                            height="348"
+                          />
+                        </figure>
 
-                                    <div className="team-member__details">
-                                        <h5>
-                                            <strong>Pius Gutzwiller</strong>
+                        <div className="team-member__details">
+                          <h5>
+                            <strong>{member.title}</strong>
 
-                                            <span>Position</span>
-                                        </h5>
+                            <span>{member.position}</span>
+                          </h5>
 
-                                        <div className="member__info">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div className="team-member">
-                                    <figure className="team-member__image">
-                                        <Image src="/images/temp/member-2.png" alt="" width="358" height="348" />
-                                    </figure>
-
-                                    <div className="team-member__details">
-                                        <h5>
-                                            <strong>Diego Frehner</strong>
-
-                                            <span>Position</span>
-                                        </h5>
-
-                                        <div className="member__info">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div className="team-member">
-                                    <figure className="team-member__image">
-                                        <Image src="/images/temp/member-3.png" alt="" width="358" height="348" />
-                                    </figure>
-
-                                    <div className="team-member__details">
-                                        <h5>
-                                            <strong>Lucca Willi</strong>
-
-                                            <span>Position</span>
-                                        </h5>
-
-                                        <div className="member__info">
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                          <div className="member__info">
+                            <p>{member.info}</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
             </div>
-        </section></>
-    )
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
