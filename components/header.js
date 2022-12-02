@@ -1,15 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
-import Head from 'next/head';
+
 
 export default function Header({ hereData }) {
   return (
     <>
-      <Head>
-        <title>AvanzaTec | We bring your vision to life</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/x-icon" href="/logo.svg" />
-      </Head>
+      
       <div className="hero" id="home">
         <div className="shell">
           <div className="hero__inner">

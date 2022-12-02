@@ -2,11 +2,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 export default function Header({ navlist }) {
   const router = useRouter();
   return (
     <>
+      <Head>
+        <title>AvanzaTec | We bring your vision to life</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
+      </Head>
       <header
         className={`${
           router.pathname === '/' ? 'header' : 'header header-dark'

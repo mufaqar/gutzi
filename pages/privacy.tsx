@@ -8,8 +8,6 @@ import Footer from '../components/footer';
 import Privacy from '../components/Privacy';
 
 export default function PrivacyPage() {
-
-
 	interface MyCodeParams {
 		about: (param: any) => void
 	}
@@ -17,12 +15,11 @@ export default function PrivacyPage() {
 	const router = useRouter()
 	const { locale } = router;
 	const t = locale === "en-US" ? en : de
-	const { heredata, navlist, about, number, appmade, team, contact } = t;
+	const { navlist, contact } = t;
 
 	return (
 		<>
 			<NavList navlist={navlist[0]} />
-
 			<div className="main">
 				<Privacy />
 			</div>
