@@ -1,4 +1,5 @@
 import React from 'react'
+import CountUp from 'react-countup';
 
 export default function Number({ number }) {
     return (
@@ -7,13 +8,14 @@ export default function Number({ number }) {
                 <div className="section__inner">
                     <ul className="list-data">
                         <li>
-                            <strong>50 <span>+</span></strong>
+                        
+                            <strong><CountUp end={50} duration={1} /><span>+</span></strong>
 
                             <p>{number.year}</p>
                         </li>
 
-                        <li>
-                            <strong>40 <span>+</span></strong>
+                        {/* <li>
+                            <strong><CountUp end={40} duration={1} /><span>+</span></strong>
 
                             <p>{number.team}</p>
                         </li>
@@ -22,11 +24,10 @@ export default function Number({ number }) {
                             <strong>0</strong>
 
                             <p>{number.work}</p>
-                        </li>
+                        </li> */}
 
                         <li>
-                            <strong>3</strong>
-
+                            <strong><CountUp end={3} duration={1} /></strong>
                             <p>{number.partner}</p>
                         </li>
                     </ul>
