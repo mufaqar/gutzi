@@ -32,9 +32,9 @@ export default function Home() {
 				<CustomersTestimonial testimonials={testimonials} />
 				<Apps />
 				<MadeBy appmade={appmade[0]} />
-				<OurTeam team={team} members={members} />
+				<OurTeam team={team[0]} members={members} />
 				<About about={about[0]} />
-				<Articles blog={blog} />
+				{/* <Articles blog={blog} /> */}
 			</div>
 			<Footer contact={contact[0]} />
 		</>

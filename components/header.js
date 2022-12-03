@@ -14,7 +14,7 @@ export default function Header({ hereData }) {
               <div className="hero__entry">
                 <p>{hereData.hero_content}</p>
               </div>
-              <a href="#" className="btn">
+              <a href="https://oxoa.ch/" className="btn">
                 {hereData.hero_button}
               </a>
             </div>

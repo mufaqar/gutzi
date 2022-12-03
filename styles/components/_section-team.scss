@@ -6,6 +6,7 @@
 .section-team {
 	padding: 9rem 0 15.2rem;
 	background: $background-gradient;
+	
 
 	@include breakpoint-down(small-desktop) {
 		padding-bottom: 12rem;
@@ -26,6 +27,17 @@
 
 		@include breakpoint-down(mobile) {
 			margin-bottom: 4rem;
+		}
+	}
+
+
+
+	.section__content{
+		color: $c-white;
+		h5 {
+			margin-top: 5rem;
+			color: $c-white;
+			text-align: left;
 		}
 	}
 

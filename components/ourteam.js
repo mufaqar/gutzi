@@ -8,13 +8,12 @@ export default function OurTeam({ team, members }) {
         <div className="shell">
           <div className="section__inner">
             <h3>{team.title}</h3>
-
             <div className="team">
               <ul>
                 {members.map((member, index) => {
                   return (
                     <li key={index}>
-                      <div className="team-member">
+                      <div className="team-member" data-nosnippet>
                         <figure className="team-member__image">
                           <Image
                             src={member.pic}
@@ -40,6 +39,13 @@ export default function OurTeam({ team, members }) {
                   );
                 })}
               </ul>
+              <div className="section__content">
+                <h5>{team.behindAvanzaTecTitle}</h5>
+                  <div className="member__info">
+                    <p>{team.behindAvanzaTec}</p>
+                  </div>
+                </div>
+          
             </div>
           </div>
         </div>

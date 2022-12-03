@@ -31,10 +31,10 @@ export default function About({ about }) {
                 }}
               ></div>
 
-              <a href="#" className="link">
+              {/* <a href="#" className="link">
                 {' '}
                 {about.readmore}
-              </a>
+              </a> */}
             </div>
 
             <figure className="section__image">

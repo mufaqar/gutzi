@@ -14,10 +14,10 @@ export default function MadeBy({ appmade }) {
                         <ul>
                             <li>
                                 <div className="card-app">
-                                    <a href="#"></a>
+                                    <a href="https://oxoa.ch/"></a>
 
                                     <figure className="card__image">
-                                        <Image src="/images/card-image-1.png" width="768" height="593" alt="" />
+                                        <Image src="/images/OXOA_App.png" width="768" height="593" alt="" />
                                     </figure>
 
                                     <div className="card__content">
@@ -30,7 +30,7 @@ export default function MadeBy({ appmade }) {
 
                             <li>
                                 <div className="card-app card-app--mint">
-                                    <a href="#"></a>
+                                    <a href="https://oxoa.ch/"></a>
 
                                     <figure className="card__image">
                                         <Image src="/images/OXOA_Web.png" width="768" height="593" alt="OXOA Desktop" />

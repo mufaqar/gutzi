@@ -26,25 +26,11 @@ export const en = {
 
   testimonials: [
     {
-      title: 'Lorem ipsum dolor',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      title: 'Revolutionär. Hilfsbereit. Engagiert.',
+      info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
       pic: '/images/testimonial-author-image.png',
-      name: 'Jane Doe',
-      company: 'Vorsitzender',
-    },
-    {
-      title: 'Lorem ipsum dolor 02',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/testimonial-author-image.png',
-      name: 'Matt Doe',
-      company: 'Vorsitzender',
-    },
-    {
-      title: 'Lorem ipsum dolor 03',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/testimonial-author-image.png',
-      name: 'Lue Doe',
-      company: 'Vorsitzender',
+      name: 'Gabi Kundert',
+      company: '',
     },
   ],
 
@@ -68,6 +54,9 @@ export const en = {
   team: [
     {
       title: 'Our Team',
+      behindAvanzaTecTitle: 'Who is behind AvanzaTec?',
+      behindAvanzaTec: 
+        'AvanzaTec was founded by the developers Pius Gutzwiller, Diego Frehner and Lucca Willi, who together look back on more than 50 years of programming experience. At the same time, the founders inspire as digital natives with a natural and intuitive understanding of technical processes of all kinds. The three Swiss got to know each other as work colleagues, from which a friendship quickly developed. Together, they harbored the desire to use their knowledge and experience specifically for the realization of corporate projects. Since then, AvanzaTec has focused not only on the innovative realization of complex visions, but also on comprehensive support and direct exchange. In this way, the team works closely with you to create tailor-made applications that inspire.',
     },
   ],
   members: [
@@ -184,6 +173,9 @@ export const de = {
   team: [
     {
       title: 'Unser Team',
+      behindAvanzaTecTitle: 'Wer steht hinter AvanzaTec?',
+      behindAvanzaTec: 
+        'AvanzaTec wurde von den Entwicklern Pius Gutzwiller, Diego Frehner und Lucca Willi gegründet, die zusammen auf mehr als 50 Jahre Programmier-Erfahrung zurückblicken. Gleichzeitig begeistern die Gründer als Digital Natives mit einem natürlichen und intuitiven Verständnis für technische Prozesse jeder Art. Die drei Schweizer haben sich als Arbeitskollegen kennengelernt, woraus schnell eine Freundschaft entstanden ist. Gemeinsam hegten sie den Wunsch, ihr Wissen und ihre Erfahrung gezielt für die Realisierung von Unternehmens-Projekten einzusetzen. Im Fokus von AvanzaTec stehen seither nicht nur die innovative Verwirklichung von komplexen Visionen, sondern auch die umfassende Betreuung und der direkte Austausch. Auf diese Weise erstellt das Team in enger Zusammenarbeit mit Ihnen massgeschneiderte Applikationen, die begeistern.',
     },
   ],
   members: [
@@ -209,20 +201,12 @@ export const de = {
 
   testimonials: [
     {
-      title: 'Lorem ipsum dolor',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
+      title: 'Revolutionär. Hilfsbereit. Engagiert.',
+      info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
       pic: '/images/testimonial-author-image.png',
-      name: 'Jane Doe',
-      company: 'Vorsitzender',
+      name: 'Gabi Kundert',
+      company: '',
     },
-    {
-      title: 'Lorem ipsum dolor 02',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/testimonial-author-image.png',
-      name: 'Matt Doe',
-      company: 'Vorsitzender',
-    },
-
   ],
 
   blog: [
