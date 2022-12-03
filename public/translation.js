@@ -25,13 +25,13 @@ export const en = {
   ],
 
   testimonials: [
-    {
-      title: 'Revolutionär. Hilfsbereit. Engagiert.',
-      info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
-      pic: '/images/testimonial-author-image.png',
-      name: 'Gabi Kundert',
-      company: '',
-    },
+    // {
+    //   title: 'Revolutionär. Hilfsbereit. Engagiert.',
+    //   info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
+    //   pic: '/images/testimonial-author-image.png',
+    //   name: 'Gabi Kundert',
+    //   company: '',
+    // },
   ],
 
   about: [
@@ -63,19 +63,19 @@ export const en = {
     {
       name: 'Pius Gutzwiller',
       position: 'director',
-      info: 'CEO and Chairman of the Organization at AvanzaTec',
+      info: '',
       pic: '/images/team/pg.png',
     },
     {
       name: 'Diego Frehner',
       position: 'director',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      info: '',
       pic: '/images/team/fd.png',
     },
     {
       name: 'Lucca Willi',
       position: 'director',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit sed',
+      info: '',
       pic: '/images/team/lw.png',
     },
   ],
@@ -200,13 +200,13 @@ export const de = {
   ],
 
   testimonials: [
-    {
-      title: 'Revolutionär. Hilfsbereit. Engagiert.',
-      info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
-      pic: '/images/testimonial-author-image.png',
-      name: 'Gabi Kundert',
-      company: '',
-    },
+    // {
+    //   title: 'Revolutionär. Hilfsbereit. Engagiert.',
+    //   info: 'Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.',
+    //   pic: '/images/testimonial-author-image.png',
+    //   name: 'Gabi Kundert',
+    //   company: '',
+    // },
   ],
 
   blog: [

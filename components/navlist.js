@@ -6,6 +6,9 @@ import Head from 'next/head';
 
 export default function Header({ navlist }) {
   const router = useRouter();
+	const { locale } = router;
+	const flage = locale === "en" ? "/images/lang-en.png" : "/images/lang-de.png";
+
   return (
     <>
       <Head>
@@ -58,7 +61,7 @@ export default function Header({ navlist }) {
                   <li className="is-current">
                     <Link href="/">
                       <Image
-                        src="/images/lang-de.png"
+                        src={flage}
                         alt=""
                         width="30"
                         height="19"
@@ -66,10 +69,10 @@ export default function Header({ navlist }) {
                       <span>De</span>
                     </Link>
                     <ul>
-                      {/* <li>
+                      <li>
                         <Link
                           href={router.asPath}
-                          locale={router.locale === 'en' && 'de'}
+                          locale='de'
                         >
                           <Image
                             src="/images/lang-de.png"
@@ -79,12 +82,12 @@ export default function Header({ navlist }) {
                           />
                           <span>de</span>
                         </Link>
-                      </li> */}
+                      </li>
 
                       <li>
                         <Link
                           href={router.asPath}
-                          locale={router.locale === 'de' && 'en'}
+                          locale='en'
                         >
                           <Image
                             src="/images/lang-en.png"
