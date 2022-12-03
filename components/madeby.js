@@ -17,7 +17,7 @@ export default function MadeBy({ appmade }) {
                                     <a href="#"></a>
 
                                     <figure className="card__image">
-                                        <Image src="/images/temp/card-image-1.png" width="768" height="593" alt="" />
+                                        <Image src="/images/card-image-1.png" width="768" height="593" alt="" />
                                     </figure>
 
                                     <div className="card__content">
@@ -33,7 +33,7 @@ export default function MadeBy({ appmade }) {
                                     <a href="#"></a>
 
                                     <figure className="card__image">
-                                        <Image src="/images/temp/OXOA_Web.png" width="768" height="593" alt="OXOA Desktop" />
+                                        <Image src="/images/OXOA_Web.png" width="768" height="593" alt="OXOA Desktop" />
                                     </figure>
 
                                     <div className="card__content">

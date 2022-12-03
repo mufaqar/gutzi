@@ -61,7 +61,7 @@ export default class Blogs extends Component {
             onClick={this.previous}
           >
             <Image
-              src="/images/temp/arrow-left.png"
+              src="/images/arrow-left.png"
               alt=""
               width="14"
               height="18"
@@ -74,7 +74,7 @@ export default class Blogs extends Component {
             onClick={this.next}
           >
             <Image
-              src="/images/temp/arrow-right.png"
+              src="/images/arrow-right.png"
               alt=""
               width="14"
               height="18"

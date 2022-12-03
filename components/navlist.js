@@ -23,7 +23,7 @@ export default function Header({ navlist }) {
             <div className="header__content">
               <Link href="/" className="logo header__logo">
                 <Image
-                  src="/images/temp/logo.svg"
+                  src="/images/logo.svg"
                   alt="AvanzaTec Logo"
                   width="2000"
                   height="2000"
@@ -58,7 +58,7 @@ export default function Header({ navlist }) {
                   <li className="is-current">
                     <Link href="/">
                       <Image
-                        src="/images/temp/lang-de.png"
+                        src="/images/lang-de.png"
                         alt=""
                         width="30"
                         height="19"
@@ -72,7 +72,7 @@ export default function Header({ navlist }) {
                           locale={router.locale === 'en' && 'de'}
                         >
                           <Image
-                            src="/images/temp/lang-de.png"
+                            src="/images/lang-de.png"
                             alt=""
                             width="30"
                             height="19"
@@ -87,7 +87,7 @@ export default function Header({ navlist }) {
                           locale={router.locale === 'de' && 'en'}
                         >
                           <Image
-                            src="/images/temp/lang-en.png"
+                            src="/images/lang-en.png"
                             alt=""
                             width="30"
                             height="19"

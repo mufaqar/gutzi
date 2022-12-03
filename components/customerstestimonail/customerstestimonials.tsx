@@ -7,7 +7,7 @@ function SampleNextArrow(props: { testimonials: any; className: any; style: any;
   return (
     <div className={className}>
       <Image
-        src="/images/temp/arrow-right.png"
+        src="/images/arrow-right.png"
         alt=""
         width="14"
         height="18"
@@ -22,7 +22,7 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
   return (
     <div className={className}>
       <Image
-        src="/images/temp/arrow-left.png"
+        src="/images/arrow-left.png"
         alt=""
         width="14"
         height="18"
@@ -68,7 +68,7 @@ export default class CustomersTestimonial extends Component {
                 <div className="testimonial">
                   <figure className="testimonial__ico">
                     <Image
-                      src="/images/temp/quotes.png"
+                      src="/images/quotes.png"
                       alt=""
                       width="42"
                       height="31"

@@ -11,7 +11,7 @@ export default function Apps() {
               <li>
                 <a href="#">
                   <Image
-                    src="/images/temp/list-logos-1.svg"
+                    src="/images/apps/No_image.svg"
                     alt=""
                     width="116"
                     height="128"
@@ -22,7 +22,7 @@ export default function Apps() {
               <li>
                 <a href="#">
                   <Image
-                    src="/images/temp/list-logos-2.svg"
+                    src="/images/apps/No_image.svg"
                     alt=""
                     width="115"
                     height="145"
@@ -31,10 +31,10 @@ export default function Apps() {
               </li>
 
               <li>
-                <a href="#">
+                <a href="https://oxoa.ch/">
                   <Image
-                    src="/images/temp/list-logos-3.svg"
-                    alt=""
+                    src="/images/apps/oxoa.svg"
+                    alt="OXOA"
                     width="123"
                     height="129"
                   />
@@ -44,7 +44,7 @@ export default function Apps() {
               <li>
                 <a href="#">
                   <Image
-                    src="/images/temp/list-logos-4.svg"
+                    src="/images/apps/No_image.svg"
                     alt=""
                     width="109"
                     height="116"
@@ -54,7 +54,7 @@ export default function Apps() {
               <li>
                 <a href="#">
                   <Image
-                    src="/images/temp/list-logos-5.svg"
+                    src="/images/apps/No_image.svg"
                     alt=""
                     width="129"
                     height="118"

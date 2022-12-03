@@ -39,7 +39,7 @@ export default function About({ about }) {
 
             <figure className="section__image">
               <Image
-                src="/images/temp/section-about-image.png"
+                src="/images/section-about-image.png"
                 alt=""
                 width="550"
                 height="571"

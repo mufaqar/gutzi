@@ -20,7 +20,7 @@ export default function Header({ hereData }) {
             </div>
             <figure className="hero__image">
               <Image
-                src="/images/temp/hero-image.png"
+                src="/images/hero-image.png"
                 alt=""
                 width="675"
                 height="582"

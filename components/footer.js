@@ -39,7 +39,7 @@ export default function Footer({ contact }) {
 
               <figure className="footer__image">
                 <Image
-                  src="/images/temp/footer-image.svg"
+                  src="/images/footer-image.svg"
                   alt=""
                   width="430"
                   height="360"
@@ -54,7 +54,7 @@ export default function Footer({ contact }) {
             <div className="footer__bar-inner">
               <a href="#" className="footer__logo logo">
                 <Image
-                  src="/images/temp/logo-footer.svg"
+                  src="/images/logo-footer.svg"
                   alt="AvanzaTec Logo"
                   width="262"
                   height="53"
