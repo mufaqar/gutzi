@@ -26,7 +26,7 @@ export default function OurTeam({ team, members }) {
 
                         <div className="team-member__details">
                           <h5>
-                            <strong>{member.title}</strong>
+                            <strong>{member.name}</strong>
 
                             <span>{member.position}</span>
                           </h5>

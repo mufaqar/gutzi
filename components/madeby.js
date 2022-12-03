@@ -43,38 +43,6 @@ export default function MadeBy({ appmade }) {
                                     </div>
                                 </div>
                             </li>
-
-                            <li className="desktop-order-4">
-                                <div className="card-app">
-                                    <a href="#"></a>
-
-                                    <figure className="card__image">
-                                        <Image src="/images/temp/card-image-4.png" width="768" height="593" alt="" />
-                                    </figure>
-
-                                    <div className="card__content">
-                                        <h5>lorem ipsum</h5>
-
-                                        <p>Web Development</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div className="card-app card-app--mint">
-                                    <a href="#"></a>
-
-                                    <figure className="card__image">
-                                        <Image src="/images/temp/card-image-3.png" width="768" height="593" alt="" />
-                                    </figure>
-
-                                    <div className="card__content">
-                                        <h5>lorem ipsum</h5>
-
-                                        <p>App Development</p>
-                                    </div>
-                                </div>
-                            </li>
                         </ul>
                     </div>
                 </div>
