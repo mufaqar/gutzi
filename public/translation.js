@@ -159,7 +159,7 @@ export const de = {
   number: [
     {
       year: 'Jahre Erfahrung',
-      team: 'Sitzungen gefhürt',
+      team: 'Sitzungen geführt',
       work: 'Ohne Motivation gearbeitet',
       partner: 'Partner',
     },
@@ -191,19 +191,19 @@ export const de = {
       name: 'Pius Gutzwiller',
       position: 'Geschäftsführer',
       info: '',
-      pic: '/images/member-1.png',
+      pic: '/images/team/pg.png',
     },
     {
       name: 'Diego Frehner',
       position: 'Geschäftsführer',
       info: '',
-      pic: '/images/member-2.png',
+      pic: '/images/team/fd.png',
     },
     {
       name: 'Lucca Willi',
       position: 'Geschäftsführer',
       info: '',
-      pic: '/images/member-3.png',
+      pic: '/images/team/lw.png',
     },
   ],
 
@@ -211,24 +211,18 @@ export const de = {
     {
       title: 'Lorem ipsum dolor',
       info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/member-1.png',
+      pic: '/images/testimonial-author-image.png',
       name: 'Jane Doe',
       company: 'Vorsitzender',
     },
     {
       title: 'Lorem ipsum dolor 02',
       info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/member-1.png',
+      pic: '/images/testimonial-author-image.png',
       name: 'Matt Doe',
       company: 'Vorsitzender',
     },
-    {
-      title: 'Lorem ipsum dolor 03',
-      info: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.',
-      pic: '/images/member-1.png',
-      name: 'Lue Doe',
-      company: 'Vorsitzender',
-    },
+
   ],
 
   blog: [
