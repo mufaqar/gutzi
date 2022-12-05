@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-function SampleNextArrow(props: { testimonials: any; className: any; style: any; onClick: any; }) {
+function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
@@ -32,9 +32,9 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
   );
 }
 
-export default class CustomersTestimonial extends Component {
+export default class CustomersTestimonial extends Component<any, any>{
   slider: any;
-  constructor(props: {} | Readonly<{}>) {
+  constructor(props: { testimonials: any } | Readonly<{}>) {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
@@ -48,7 +48,7 @@ export default class CustomersTestimonial extends Component {
 
   render() {
     const testimonials = this.props.testimonials;
-    console.log(testimonials);
+
     const settings = {
       dots: true,
       infinite: true,
