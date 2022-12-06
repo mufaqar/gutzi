@@ -6,7 +6,7 @@ export default function MadeBy({ appmade }) {
         <><section className="section-apps">
             <div className="shell">
                 <header className="section__head">
-                    <h3>{appmade.title}</h3>
+                    <h3>{appmade('appmade.title')}</h3>
                 </header>
 
                 <div className="section__body">

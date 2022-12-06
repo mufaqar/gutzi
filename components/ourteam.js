@@ -2,15 +2,17 @@ import Image from 'next/image';
 import React from 'react';
 
 export default function OurTeam({ team, members }) {
+  const member = members('members')
+  
   return (
     <>
       <section className="section-team" id="team">
         <div className="shell">
           <div className="section__inner">
-            <h3>{team.title}</h3>
+            <h3>{team('team.title')}</h3>
             <div className="team">
-              <ul>
-                {members.map((member, index) => {
+             <ul>
+                {member.map((member, index) => {
                   return (
                     <li key={index}>
                       <div className="team-member" data-nosnippet>
@@ -40,9 +42,9 @@ export default function OurTeam({ team, members }) {
                 })}
               </ul>
               <div className="section__content">
-                <h5>{team.behindAvanzaTecTitle}</h5>
+                <h5>{team('team.behindAvanzaTecTitle')}</h5>
                   <div className="member__info">
-                    <p>{team.behindAvanzaTec}</p>
+                    <p>{team('team.behindAvanzaTec')}</p>
                   </div>
                 </div>
           

@@ -10,7 +10,7 @@ export default function Footer({ contact }) {
           <div className="shell">
             <div className="footer__content-inner">
               <div className="footer__aside">
-                <h3>{contact.title}</h3>
+                <h3>{contact('contact.title')}</h3>
 
                 <div className="contacts">
                   <ul>

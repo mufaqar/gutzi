@@ -11,24 +11,24 @@ export default function Number({ number }) {
                         
                             <strong><CountUp end={50} duration={1} /><span>+</span></strong>
 
-                            <p>{number.year}</p>
+                            <p>{number('number.year')}</p>
                         </li>
 
                         {/* <li>
                             <strong><CountUp end={40} duration={1} /><span>+</span></strong>
 
-                            <p>{number.team}</p>
+                            <p>{number('number.team')}</p>
                         </li>
 
                         <li>
                             <strong>0</strong>
 
-                            <p>{number.work}</p>
+                            <p>{number('number.work')}</p>
                         </li> */}
 
                         <li>
                             <strong><CountUp end={3} duration={1} /></strong>
-                            <p>{number.partner}</p>
+                            <p>{number('number.partner')}</p>
                         </li>
                     </ul>
                 </div>

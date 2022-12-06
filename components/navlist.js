@@ -3,11 +3,18 @@ import Link from 'next/link';
 import React from 'react';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
+import {
+  useTranslation,
+  LanguageSwitcher,
+} from "next-export-i18n";
 
-export default function Header({ navlist }) {
+
+export default function Header() {
   const router = useRouter();
-	const { locale } = router;
-	const flage = locale === "en" ? "/images/lang-en.png" : "/images/lang-de.png";
+	const { query } = router;
+	const flage = query.lang === "en" ? "/images/lang-en.png" : "/images/lang-de.png";
+	const label = query.lang === "en" ? "EN" : "DE";
+  const { t } = useTranslation();
 
   return (
     <>
@@ -36,19 +43,19 @@ export default function Header({ navlist }) {
                 <nav className="nav">
                   <ul>
                     <li>
-                      <Link href="/">{navlist.home}</Link>
+                      <Link href="/">{t('navlist.home')}</Link>
                     </li>
 
                     <li>
-                      <Link href="/#team">{navlist.team}</Link>
+                      <Link href="/#team">{t('navlist.team')}</Link>
                     </li>
 
                     <li>
-                      <Link href="/#about">{navlist.about}</Link>
+                      <Link href="/#about">{t('navlist.about')}</Link>
                     </li>
 
                     <li>
-                      <Link href="/#contact">{navlist.contact}</Link>
+                      <Link href="/#contact">{t('navlist.contact')}</Link>
                     </li>
                   </ul>
                 </nav>
@@ -66,14 +73,12 @@ export default function Header({ navlist }) {
                         width="30"
                         height="19"
                       />
-                      <span>De</span>
+                      <span>{label}</span>
                     </Link>
                     <ul>
+                    <LanguageSwitcher lang="de">
                       <li>
-                        <Link
-                          href={router.asPath}
-                          locale='de'
-                        >
+                        
                           <Image
                             src="/images/lang-de.png"
                             alt=""
@@ -81,14 +86,13 @@ export default function Header({ navlist }) {
                             height="19"
                           />
                           <span>de</span>
-                        </Link>
+                      
                       </li>
+                      </LanguageSwitcher>
 
+                      <LanguageSwitcher lang="en">
                       <li>
-                        <Link
-                          href={router.asPath}
-                          locale='en'
-                        >
+                        
                           <Image
                             src="/images/lang-en.png"
                             alt=""
@@ -96,8 +100,10 @@ export default function Header({ navlist }) {
                             height="19"
                           />
                           <span>En</span>
-                        </Link>
+                       
                       </li>
+                      </LanguageSwitcher>
+
                     </ul>
                   </li>
                 </ul>

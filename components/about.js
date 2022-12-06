@@ -16,24 +16,24 @@ export default function About({ about }) {
         <div className="shell">
           <div className="section__inner">
             <div className="section__content">
-              <h3>{about.vision}</h3>
+              <h3>{about('about.vision')}</h3>
               <div
                 dangerouslySetInnerHTML={{
-                  __html: about.vision_detail,
+                  __html: about('about.vision_detail'),
                 }}
               ></div>
-              <h3 className="about_title"> {about.about}</h3>
+              <h3 className="about_title"> {about('about.about')}</h3>
 
               <div
                 className="section__entry"
                 dangerouslySetInnerHTML={{
-                  __html: about.about_detail,
+                  __html: about('about.about_detail'),
                 }}
               ></div>
 
               {/* <a href="#" className="link">
                 {' '}
-                {about.readmore}
+                {about('about.readmore')}
               </a> */}
             </div>
 

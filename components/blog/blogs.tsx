@@ -55,6 +55,10 @@ export default class Blogs extends Component<IBlogProps> {
         },
       ],
     };
+
+    const blogs = blog('blog')
+    console.log("🚀 ~ file: blogs.tsx:60 ~ Blogs ~ render ~ blogs", blogs)
+
     return (
       <div className="slider-articles js-slider-articles">
         <div className="slider__actions">
@@ -87,7 +91,7 @@ export default class Blogs extends Component<IBlogProps> {
 
         <Slider ref={(c) => (this.slider = c)} {...settings}>
 
-          {blog.map((blog: any, index: any) => {
+          {blogs.map((blog: any, index: any) => {
             return (
               <div key={index}>
                 <article className="article">

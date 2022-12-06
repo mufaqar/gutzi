@@ -1,0 +1,117 @@
+{
+  "i18n": {
+    "heredata": {
+      "hero_title": "We bring your vision to life",
+      "hero_content": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companies. With our proven software solutions, we turn your vision into reality and support you in accelerating, simplifying and automating your processes. We create a tailor-made product for you in a modern design that meets the highest demands.",
+      "hero_button": "Get Started"
+    },
+    "navlist": {
+      "home": "Home",
+      "team": "Team",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "number": {
+      "year": "years of experience",
+      "team": "meetings conducted",
+      "work": "Worked without motivation",
+      "partner": "Partner"
+    },
+    "testimonials": [
+      {
+        "title": "Revolutionär. Hilfsbereit. Engagiert.",
+        "info": "Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.",
+        "pic": "/images/testimonial-author-image.png",
+        "name": "Gabi Kundert",
+        "company": ""
+      },
+      {
+        "title": "Revolutionär. Hilfsbereit. Engagiert.",
+        "info": "Von der Kompetenz bin ich sehr beeindruckt. Die Zusammenarbeit war sehr angenehm und die Kommunikation war immer sehr schnell und effizient. Ich kann AvanzaTec nur weiterempfehlen.",
+        "pic": "/images/testimonial-author-image.png",
+        "name": "Gabi Kundert",
+        "company": ""
+      }
+    ],
+    "about": {
+      "vision": "Our vision",
+      "vision_detail": "<p>Efficient and innovative programming of high-quality applications for your company is one of AvanzaTec core values. Thanks to our deliberately small team size, we save the detour via many developers or agencies and devote ourselves directly to your project.</p><p>This approach enables us to realize your vision in a time-saving and cost-effective manner. We are already thinking about your future success today: We develop your app to be highly scalable, so that it can be expanded at any time and adapted to your changing needs.</p> <p>Our team has made it its task to Not only to implement your ideas, but to exceed them. In addition to our programming experience of over 50 years, we bring our passion for innovation and for sophisticated development strategies to your project.</p> <p>Therefore, high-quality applications that correspond to the current zeitgeist and grow flexibly with you are our standard. With our technical know-how, we breathe life into your vision and look forward to breaking new ground with you.</p>",
+      "about": "About AvanzaTec",
+      "about_detail": "<p>Highly scalable web services and apps - seamless flexibility</p> <p>The status quo is more ephemeral than ever. Your application grows with your company and is therefore always up to the requirements that you face. Enjoy the comfort of seamless flexibility and smooth extension that adapts your app to your needs.</p> <p>Fast, secure and powerful implementation of your project thanks to microservice architecture</p> <p>AvanzaTec uses it Microservice architecture concept in which individual components of your app or web application work independently of each other. This method reduces your products susceptibility to errors thanks to the elimination of unconscious linking of individual areas. Due to the smart division, several developers can work on the project at the same time, which significantly reduces the time to completion and also reduces costs. If you wish to adapt or expand individual functions in the future, we can fulfill your request quickly and cost-effectively, since the entire application does not have to be reworked. Any technical errors can also be corrected in a targeted and timely manner, because the problem can be pinpointed and corrected locally. With the microservice architecture, we ensure the high scalability of your product, which is essential in fast-paced everyday business life. </p>",
+      "readmore": "Read More"
+    },
+    "appmade": {
+      "title": "Apps Made by AvanzaTec"
+    },
+    "team": {
+      "title": "Our Team",
+      "behindAvanzaTecTitle": "Who is behind AvanzaTec?",
+      "behindAvanzaTec": "AvanzaTec was founded by the developers Pius Gutzwiller, Diego Frehner and Lucca Willi, who together look back on more than 50 years of programming experience. At the same time, the founders inspire as digital natives with a natural and intuitive understanding of technical processes of all kinds. The three Swiss got to know each other as work colleagues, from which a friendship quickly developed. Together, they harbored the desire to use their knowledge and experience specifically for the realization of corporate projects. Since then, AvanzaTec has focused not only on the innovative realization of complex visions, but also on comprehensive support and direct exchange. In this way, the team works closely with you to create tailor-made applications that inspire."
+    },
+    "members": [
+      {
+        "name": "Pius Gutzwiller",
+        "position": "director",
+        "info": "",
+        "pic": "/images/team/pg.png"
+      },
+      {
+        "name": "Diego Frehner",
+        "position": "director",
+        "info": "",
+        "pic": "/images/team/fd.png"
+      },
+      {
+        "name": "Lucca Willi",
+        "position": "director",
+        "info": "",
+        "pic": "/images/team/lw.png"
+      }
+    ],
+    "blog": [
+      {
+        "title": "Blog Article 1",
+        "time": "Vorsitzender",
+        "info": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie",
+        "pic": "/images/article/article-image-1.png",
+        "readmore_title": "Read more",
+        "readmore_url": "#"
+      },
+      {
+        "title": "Blog Article 2",
+        "time": "Vorsitzender",
+        "info": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie",
+        "pic": "/images/article/article-image-2.png",
+        "readmore_title": "Read more",
+        "readmore_url": "#"
+      },
+      {
+        "title": "Blog Article 3",
+        "time": "Vorsitzender",
+        "info": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie",
+        "pic": "/images/article/article-image-3.png",
+        "readmore_title": "Read more",
+        "readmore_url": "#"
+      },
+      {
+        "title": "Blog Article 4",
+        "time": "Vorsitzender",
+        "info": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie",
+        "pic": "/images/article/article-image-1.png",
+        "readmore_title": "Read more",
+        "readmore_url": "#"
+      },
+      {
+        "title": "Blog Article 5",
+        "time": "Vorsitzender",
+        "info": "AvanzaTec was founded out of the desire to realize highly scalable web services and apps for companie",
+        "pic": "/images/article/article-image-2.png",
+        "readmore_title": "Read more",
+        "readmore_url": "#"
+      }
+    ],
+    "contact": {
+      "title": "Contact Details"
+    }
+  }
+}

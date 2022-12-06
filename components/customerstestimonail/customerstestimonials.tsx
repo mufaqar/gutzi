@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
+function SampleNextArrow(props: { className: any; style: any; onClick: any }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
@@ -17,7 +17,7 @@ function SampleNextArrow(props: { className: any; style: any; onClick: any; }) {
   );
 }
 
-function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
+function SamplePrevArrow(props: { className: any; style: any; onClick: any }) {
   const { className, style, onClick } = props;
   return (
     <div className={className}>
@@ -32,7 +32,7 @@ function SamplePrevArrow(props: { className: any; style: any; onClick: any; }) {
   );
 }
 
-export default class CustomersTestimonial extends Component<any, any>{
+export default class CustomersTestimonial extends Component<any, any> {
   slider: any;
   constructor(props: { testimonials: any } | Readonly<{}>) {
     super(props);
@@ -48,6 +48,7 @@ export default class CustomersTestimonial extends Component<any, any>{
 
   render() {
     const testimonials = this.props.testimonials;
+    const testimonial = testimonials("testimonials");
 
     const settings = {
       dots: true,
@@ -55,13 +56,26 @@ export default class CustomersTestimonial extends Component<any, any>{
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      nextArrow: <SampleNextArrow className={undefined} style={undefined} onClick={undefined} />,
-      prevArrow: <SamplePrevArrow className={undefined} style={undefined} onClick={undefined} />,
+      nextArrow: (
+        <SampleNextArrow
+          className={undefined}
+          style={undefined}
+          onClick={undefined}
+        />
+      ),
+      prevArrow: (
+        <SamplePrevArrow
+          className={undefined}
+          style={undefined}
+          onClick={undefined}
+        />
+      ),
     };
+
     return (
       <div>
         <Slider ref={(c) => (this.slider = c)} {...settings}>
-          {testimonials.map((testimonial: any, index: any) => {
+          {testimonial.map((testimonial: any, index: any) => {
             return (
               <div key={index}>
 
