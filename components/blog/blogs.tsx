@@ -2,9 +2,11 @@ import Image from "next/image";
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class Blogs extends Component<any, any> {
+interface IBlogProps { blog: any; }
+
+export default class Blogs extends Component<IBlogProps> {
   slider: any;
-  constructor(props: { blog: any } | Readonly<{}>) {
+  constructor(props : IBlogProps) {
     super(props);
     this.next = this.next.bind(this);
     this.previous = this.previous.bind(this);
@@ -15,9 +17,10 @@ export default class Blogs extends Component<any, any> {
   previous() {
     this.slider.slickPrev();
   }
+
+  
   render() {
     const blog = this.props.blog;
-    console.log(blog);
     const settings = {
       arrows: false,
       dots: false,
