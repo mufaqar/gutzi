@@ -19,7 +19,7 @@ export default function PrivacyPage() {
 
 	return (
 		<>
-			<NavList navlist={navlist[0]} />
+			{/* <NavList navlist={navlist[0]} /> */}
 			<div className="main">
 				<Privacy />
 			</div>
